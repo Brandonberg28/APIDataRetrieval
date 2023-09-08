@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup 
 
 #create vars, url and get response 
-tickerSymbol = 'COKE' #Roblox!!!
+tickerSymbol = 'COKE' 
 url = 'https://finance.yahoo.com/quote/'+tickerSymbol
 response = requests.get(url)
 
